@@ -11,8 +11,8 @@ from Tools.Download import download
 
 
 
-my_father = "https://t.me/{}".format(Config.USER_NAME[1:])
-support = "https://telegram.dog/Ns_Bot_supporters"
+my_father = "https://t.me/Mega_Bots_Updates".format(Config.USER_NAME[1:])
+support = "https://telegram.dog/Mega_Bots_Supporters"
 
 @Client.on_message(Filters.command(["start"]))
 async def start(c, m):
